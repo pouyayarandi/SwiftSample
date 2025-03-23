@@ -1,4 +1,3 @@
-
 func main() {
     func getRandomNumber() -> Int {
         Int.random(in: 0...9)

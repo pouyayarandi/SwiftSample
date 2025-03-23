@@ -1,4 +1,3 @@
-
 extension String {
     var startsWithA: Bool {
         hasPrefix("a") || hasPrefix("A")

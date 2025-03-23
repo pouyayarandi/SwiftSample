@@ -1,4 +1,3 @@
-
 protocol Shape {
     var vertexCount: Int { get }
     func draw()

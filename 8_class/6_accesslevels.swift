@@ -1,4 +1,3 @@
-
 class AccessLevels {
 
     // It's accessible from other modules and can be overriden

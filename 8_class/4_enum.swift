@@ -1,4 +1,3 @@
-
 enum State {
     case ready
     case processing
@@ -6,17 +5,17 @@ enum State {
 }
 
 let state: State = .ready
-print(state) // ready
+print(state)  // ready
 
 // Enums can have raw value
 enum Color: String {
     case red
     case green
-    case blue = "BLUE"
+    case blue = "blueee"
 }
 
-print(Color.green.rawValue) // green
-print(Color.blue.rawValue)  // BLUE
+print(Color.green.rawValue)  // green
+print(Color.blue.rawValue)  // blueee
 
 // Enums can have associated value
 enum Result {
@@ -34,5 +33,5 @@ enum Result {
 }
 
 let result: Result = .success("Hello")
-print(result)           // success("Hello")
-print(result.string)    // Hello
+print(result)  // success("Hello")
+print(result.string)  // Hello

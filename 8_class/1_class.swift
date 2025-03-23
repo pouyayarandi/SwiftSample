@@ -1,4 +1,3 @@
-
 class Contact {
     let email: String
 

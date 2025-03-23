@@ -1,4 +1,3 @@
-
 func createReadOnlyList() {
     let list = ["triangle", "square", "circle"]
 

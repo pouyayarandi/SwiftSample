@@ -1,4 +1,3 @@
-
 class PersonClass {
     var name: String
 
@@ -15,10 +14,10 @@ struct PersonStruct {
 var personClass = PersonClass(name: "a")
 var newPersonClass = personClass
 personClass.name = "b"
-print(newPersonClass.name) // b
+print(newPersonClass.name)  // b
 
 // Structs are value type
 var personStruct = PersonStruct(name: "a")
 var newPersonStruct = personStruct
 personStruct.name = "b"
-print(newPersonStruct.name) // a
+print(newPersonStruct.name)  // a

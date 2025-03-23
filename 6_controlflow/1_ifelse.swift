@@ -1,4 +1,3 @@
-
 let number = 10
 
 if number > 5 {
@@ -11,16 +10,17 @@ if number > 5 {
 
 let text = number % 2 == 0 ? "even" : "odd"
 
-let anotherText = if number % 2 == 0 {
-    "even"
-} else {
-    "odd"
-}
+let anotherText =
+    if number % 2 == 0 {
+        "even"
+    } else {
+        "odd"
+    }
 
 // It could be written in one line
 // let anotherText = if number % 2 == 0 { "even" } else { "odd" }
 
-print(text)         // even
+print(text)  // even
 print(anotherText)  // even
 
 func useGuards() {
