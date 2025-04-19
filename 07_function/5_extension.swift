@@ -1,6 +1,6 @@
 extension String {
     var startsWithA: Bool {
-        hasPrefix("a") || hasPrefix("A")
+        lowercased().hasPrefix("a")
     }
 
     func prefixWith(_ prefix: String) -> String {
